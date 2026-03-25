@@ -1,0 +1,11 @@
+1. Write a Python script using patchright that visits a Cloudflare Turnstile page, waits for the token to appear in the hidden input field, then clicks submit and prints the result. Run it 10 times and report success rate.
+
+2. Rewrite this Playwright script to record a video of each browser context and save each video with a numbered filename after context closes, then zip all videos at the end.
+
+3. Write a Python function using page.route() in patchright that blocks all requests containing challenges.cloudflare.com, extracts the sitekey from the blocked request URL, and aborts the request.
+
+4. Write a page.evaluate() call that checks if a hidden input named cf-turnstile-response exists in the DOM, creates it if not, sets its value to a given token, then clicks the submit button.
+
+5. Write JavaScript to run inside page.evaluate() that returns all img src attributes from the page as absolute URLs, then a second version that filters to only images where getBoundingClientRect width and height are greater than zero and computed display is not none.
+
+6. Write a Python function that takes a list of image URLs and a requests Session with cookies, fetches each image, and returns a list of base64 encoded strings handling data URIs separately.
