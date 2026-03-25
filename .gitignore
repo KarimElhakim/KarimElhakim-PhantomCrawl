@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+node_modules/
+.claude/
+package.json
+package-lock.json
+task1/videos/
+task1/videos/*.zip
+task1/videos/*.webm
+task2/videos/
+task2/videos/*.zip
+task2/videos/*.webm
+task4/architecture-1.png
